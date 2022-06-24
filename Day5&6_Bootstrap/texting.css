@@ -1,0 +1,317 @@
+body {
+  background-color: rgb(247, 206, 70);
+}
+
+@media screen and (min-width: 1150px){
+  body{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .my-nav-bar {
+    position: fixed;
+    top: -20px; 
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+
+  header {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header div {
+    margin: 20px;
+  }
+}
+
+
+
+
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  flex: 1;
+}
+
+.icon-list {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.icon {
+  margin: 5px;
+  background-color: rgb(65, 56, 24);
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon>i {
+  color: rgb(247, 206, 70);
+}
+
+
+.my-nav-bar {
+  margin-top: 20px;
+}
+
+.navbar-nav li:hover {
+  background-color: rgb(54, 53, 53);
+  box-shadow: inset 0 0 10px black;
+}
+
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .show>.nav-link:hover {
+  color: white;
+  background-color: rgb(54, 53, 53);
+  box-shadow: inset 0 0 10px black;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: rgb(54, 53, 53);
+  box-shadow: inset 0 0 10px black;
+}
+
+.dropdown-item:hover {
+  color: white;
+  box-shadow: inset 0 0 10px black;
+  background-color: rgb(54, 53, 53);
+}
+
+nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav div.container-fluid {
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-caption {
+  background-color: rgba(10, 10, 10, 0.7);
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption h5 {
+  border-top: solid 2px white;
+}
+
+.carousel-caption p {
+  border-bottom: solid 2px white;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+.latestmedia {
+  margin: 30px 0px 20px 0px;
+}
+
+.latestmediatext {
+  width: 100vw;
+}
+
+.mediablock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.leftbox{
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 0px;
+  
+}
+
+.centerbox{
+  width: auto;
+  height: 45vh;
+  background-color: white;
+  padding: 0px;
+}
+
+.centerbox-text{
+  border-style: solid;
+  border-width: 30px;
+  border-color: white;
+  background-color: white;
+  height: auto;
+}
+
+.centerbox-header{
+  width: fit-content;
+  font-size: 30px;
+  border-bottom:1px solid orange;
+  padding:0 0 4px 0
+}
+
+
+.centerbox-subheader{
+  display: flex;
+  /* border-style: double ; */
+  border-color: grey;
+  /* border-width: 3px 0px 3px 0px; */
+}
+
+.filedunder{
+  width: fit-content;
+}
+
+.News{
+  width: fit-content;
+  border-bottom:1px solid orange;
+  padding:0 0 1px 0;
+  margin: 0 0 0 5px;
+}
+
+.centerbox-content{
+  color: grey;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+
+.rightbox{
+  width: auto;
+  height: 35vh;
+  background-color: white;
+  padding: 0px;
+}
+
+.innertext{
+  margin: 5px;
+  font-size: small;
+  align-items: center;
+  flex: 100%;
+}
+
+.innerbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fac309;
+  margin: 2px;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border-width: 0px;
+  font-size: small;
+}
+
+.innerbutton:hover{
+  background-color: #282828;
+  transition: 0.5s;
+  color: #fac309;
+}
+
+.greytext{
+  color: #9b9b9b ;
+  font-size: xx-small;
+}
+
+.innerlogo{
+  color: grey;
+}
+
+.dategroup{
+  display: flex;
+}
+
+.eventdate{
+  background-color: #292928;
+  color: white;
+  width: 30%;
+  height: auto;
+}
+
+.datetext{
+  font-size: 30px;
+  margin: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.month{
+  font-weight: 100;
+  margin: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.year{
+  margin: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.eventinfo{
+  background-color: white;
+  color: black;
+  width: 70%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.location{
+  text-decoration: underline;
+  margin:0px;
+  font-size: 10px;
+}
+
+.city{
+  color: black;
+  font-weight: 100;
+  margin: 0;
+  font-size: 10px;
+}

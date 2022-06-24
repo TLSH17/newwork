@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./exe2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div id="difficulty"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+          </svg>Median</div>
+        <div id="share">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-share"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="score-board">
+        <div class="score-card highlight">
+          <span class="user">X</span><span class="score">-</span>
+        </div>
+        <div class="score-card">
+          <span class="user">O</span><span class="score">-</span>
+        </div>
+      </div>
+      <div class="notification-board">X Turn</div>
+      <div class="game-board">
+        <div class="game-container">
+          <div class="box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              </svg>
+          </div>
+          <div class="box lr-border">X</div>
+          <div class="box">X</div>
+          <div class="box tb-border">X</div>
+          <div class="box lr-border tb-border">X</div>
+          <div class="box tb-border">X</div>
+          <div class="box">X</div>
+          <div class="box lr-border">X</div>
+          <div class="box">X</div>
+        </div>
+      </div>
+      <div class="control-board">RESTART-GAME</div>
+    </div>
+    <div class="feedback">Feedback</div>
+  </body>
+</html>

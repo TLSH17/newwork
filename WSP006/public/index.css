@@ -1,0 +1,50 @@
+body {
+  background-image: url("bg.jpeg");
+  background-repeat: repeat;
+  margin: 15px;
+}
+
+#memo-board {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.memo {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #f5e37b;
+  box-shadow: 10px 10px 10px black;
+}
+
+#input-box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #f5e37b;
+  box-shadow: 10px 10px 10px black;
+}
+#editing-area {
+  text-align: center;
+  background-color: #7b1517;
+  padding: 30px;
+  width: 20vw;
+}
+
+.admin-title {
+  color: #d10c00;
+  width: 100%;
+}
+
+.button-div .bi {
+  color: black;
+  background-color: white;
+}
+
+.admin{
+text-align: center;
+}
+
+.submitButton{
+  margin: 5px;
+}

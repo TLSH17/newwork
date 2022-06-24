@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        #container {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 50vw;
+            height: 50vw;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #d3e1fb;
+            border-color: #5a7ab1;
+            border-style: solid;
+            width: calc(100%/3 - 10px);
+            height: calc(100%/3 - 10px);
+            margin: 3px;
+            font-size: 50px;
+        }
+
+        .highlight {
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="./style1.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+    </div>
+
+
+</body>
+
+</html>
