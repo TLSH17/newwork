@@ -1,0 +1,34 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "tecky",
+            "database": "tecky",
+            "username": "tommylau",
+            "password": "tommyhong"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "memo_wall",
+            "database": "memo_wall",
+            "username": "tommylau",
+            "password": "tommyhong"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "wsp011",
+            "database": "wsp011",
+            "username": "tommylau",
+            "password": "tommyhong"
+        }
+    ]
+}

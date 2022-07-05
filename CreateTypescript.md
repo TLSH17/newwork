@@ -32,12 +32,43 @@ super: call parent
 
 
 1. npm init (打-y 會自動幫您答哂yes)
-2. npm install ts-node @types/node typescript  (裝番哂相應npm packages
-ts-node: typescript
-@types/node: 補丁)
+2. npm install ts-node @types/node typescript 
+
+    #Express:
+    npm install express
+    npm install -D @types/express
+
+    #Session:
+    npm install express-session
+    npm install -D @types/express-session
+
+    #Formidable:
+    npm install formidable @types/formidable
+
+    #Jsonfile:
+    npm i jsonfile
+
+    #auto reload:
+    npm i -D ts-node-dev
+
+(裝番哂相應npm packages)
+
 3. 開 tsconfig.json (copy 番CMS for Typescript setup, 好少機會改)
-4. 開 gitignore (mark低番邊樣野唔放上git)
+4. 開 .gitignore (mark低番邊樣野唔放上git)
     1. node_modules  (因為勁多野)
     2. .DS_Store (Mac機一定ignore埋依個)
     3. .env (重要！因為係密碼)
+
+# OSX
+.DS_Store*
+Icon?
+
+# npm
+node_modules
+*.log
+*.gz
+dist
+
+# Env
+.env
 
