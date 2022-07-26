@@ -15,20 +15,30 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "memo_wall",
-            "database": "memo_wall",
+            "name": "memoexe",
+            "database": "memoexe",
             "username": "tommylau",
-            "password": "tommyhong"
+            "password": "1234"
         },
         {
             "previewLimit": 50,
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "wsp011",
-            "database": "wsp011",
+            "name": "bad004",
+            "database": "bad004",
             "username": "tommylau",
-            "password": "tommyhong"
+            "password": "1234"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "bad005",
+            "database": "bad005",
+            "username": "tommylau",
+            "password": "1234"
         }
     ]
 }
